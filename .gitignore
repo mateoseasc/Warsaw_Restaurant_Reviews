@@ -7,9 +7,9 @@ __pycache__/
 # Secrets (Apify token)
 .env
 
-# Scraped data: review text is not published
-data/raw/
-data/processed/*.csv
+# Raw scraped data is not published (exception: the scraper queries).
+data/raw/*
+!data/raw/gosom_queries.txt
 
 # Personal working notes
 CLAUDE.md
