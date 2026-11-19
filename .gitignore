@@ -11,6 +11,9 @@ __pycache__/
 data/raw/*
 !data/raw/gosom_queries.txt
 
+# Processed files that contain review text
+data/processed/reviews_clean.csv
+
 # Personal working notes
 CLAUDE.md
 
